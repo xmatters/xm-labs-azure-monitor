@@ -16,6 +16,17 @@ Microsoft Azure is a cloud computing service created by Microsoft for building, 
 # How it works
 When a Monitoring Alert is triggered, the xMatters Action fires to the Flow Designer HTTP Trigger which triggers the flow. The flow inspects the **Monitor Condition** field of the alert. If the field is "Resolved", the flow branches and retrieves the Active events with a matching `ID` field in the Get Events step and then terminates any events found. If the **Monitor Condition** is any other value, a new event is generated targeting the recipients defined in the **Create xMatters Event** step. 
 
+All these monitoring services are currently supported:
+1. Platform
+2. Log Analytics
+3. Application Insights
+4. Activity Log - Administrative
+5. Activity Log - Policy
+6. Activity Log - Autoscale
+7. Activity Log - Security
+8. ServiceHealth
+9. Resource Health
+
 # Installation
 
 
