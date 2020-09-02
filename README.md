@@ -27,6 +27,8 @@ All these monitoring services are currently supported:
 8. ServiceHealth
 9. Resource Health
 
+Azure Monitor alert schemas can be found [here](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-common-schema-definitions).
+
 # Installation
 
 
